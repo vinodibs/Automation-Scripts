@@ -7,7 +7,7 @@
 ########################################################
 
 # Downloading & Installing Adobereader for Ubuntu Version
-sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+sudo add-apt-repository "deb http://archive.canonical.com/ precise partner" -y
 sudo apt-get update -y 
 sudo apt-get install adobereader-enu -y
 echo "################################################################"

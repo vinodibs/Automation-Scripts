@@ -7,7 +7,7 @@
 ########################################################
 
 # Downloading & Installing VLC for Ubuntu Version
-sudo add-apt-repository ppa:videolan/master-daily
+sudo add-apt-repository ppa:videolan/master-daily -y
 sudo apt-get update -y 
 sudo apt-get install vlc -y
 echo "################################################################"
