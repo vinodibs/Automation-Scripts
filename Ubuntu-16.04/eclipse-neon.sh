@@ -8,8 +8,9 @@
 
 # Downloading & Installing elipse for Ubuntu Version
 
-wget http://git.impressicocrm.com/vinod.kumar/Automation-Scritps/raw/master/eclipse-jee-neon-R-linux-gtk-x86_64.tar.gz -O ~/Desktop/ 
-
+wget http://git.impressicocrm.com/vinod.kumar/Automation-Scritps/raw/master/eclipse-jee-neon-R-linux-gtk-x86_64.tar.gz -O /tmp/eclipse-jee-neon-R-linux-gtk-x86_64.tar.gz
+cd /tmp 
+tar -xvf eclipse-jee-neon-R-linux-gtk-x86_64.tar.gz -C ~/Desktop/
 echo "################################################################"
 echo "################ Installation Sucessfully ######################"
 echo "################################################################"
