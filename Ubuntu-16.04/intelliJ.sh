@@ -10,7 +10,9 @@
 
 wget wget http://git.impressicocrm.com/vinod.kumar/Software/raw/master/ideaIU-2017.2.5.tar.gz -O /tmp/ideaIU-2017.2.5.tar.gz
 cd /tmp 
-tar -xvf ideaIU-2017.2.5.tar.gz -C ~/Desktop/
+tar -xvf ideaIU-2017.2.5.tar.gz -C ~/Desktop
+cd ~/Desktop/idea-IU-172.4343.14/bin/
+./idea.sh
 echo "################################################################"
 echo "################ Installation Sucessfully ######################"
 echo "################################################################"
