@@ -11,7 +11,7 @@ sudo apt-get update -y
 sudo apt-get install net-tools -y 
 sudo apt-get install network-manager* -y
 sudo apt-get install vim -y
-sudo apt-get -f install
+sudo apt-get -f install -y
 mkdir cd ~/Documents/Source-Code
 sudo echo "192.168.0.1       "icloud.impressico.local" " >> /etc/hosts
 sudo echo "192.168.0.11       "impressico.local" " >> /etc/hosts
