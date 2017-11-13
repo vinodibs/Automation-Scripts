@@ -10,9 +10,9 @@
 ./package.sh
 ./adobereader.sh
 ./beyond-compare.sh
-./sh chrome.sh
+./chrome.sh
 ./eclipse-neon.sh
-./java-install.sh
+./java-1.8.sh
 ./notepadqq.sh
 ./openssh.sh
 ./owncloud.sh
@@ -23,7 +23,7 @@
 ./sublime.sh
 ./vlc.sh
 ./xrdp.sh
-
+./java-1.7.sh
 echo "################################################################"
 echo "################ All Pacahges Has been Installed ######################"
 echo "################################################################"
