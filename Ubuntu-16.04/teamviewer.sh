@@ -8,7 +8,8 @@
 
 # Downloading & Installing teamviewer for Ubuntu Version
 
-wget https://download.teamviewer.com/download/teamviewer_i386.deb
+wget https://download.teamviewer.com/download/teamviewer_i386.deb -O /tmp/teamviewer_i386.deb
+cd /tmp
 sudo dpkg -i teamviewer*.deb
 sudo apt-get -f install -y
 
