@@ -17,6 +17,7 @@ sudo echo "192.168.0.1       "icloud.impressico.local" " >> /etc/hosts
 sudo echo "192.168.0.11       "impressico.local" " >> /etc/hosts
 sudo echo "192.168.0.68       "hrms.impressico.local" " >> /etc/hosts
 sudo echo "192.168.0.21       "svn.impressico.in" " >> /etc/hosts
+udo echo "192.168.0.7       "chef.impressico.local" " >> /etc/hosts
 echo "################################################################"
 echo "################ Installation Sucessfully ######################"
 echo "################################################################"
