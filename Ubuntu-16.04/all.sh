@@ -7,25 +7,25 @@
 ########################################################
 
 # Installing All required Package for Ubuntu Version
-./package.sh
-./adobereader.sh
-./beyond-compare.sh
-./chrome.sh
-./eclipse-neon.sh
-./java-1.8.sh
-./notepadqq.sh
-./openssh.sh
-./owncloud.sh
-./remmina.sh
-./shutter.sh
-./skype.sh
-./slack.sh
-./sublime.sh
-./vlc.sh
-./xrdp.sh
-./java-1.7.sh
-./teamviewer.sh
-./rabbitvcs.sh
+sudo ./package.sh
+sudo ./adobereader.sh
+sudo ./beyond-compare.sh
+sudo ./chrome.sh
+sudo ./eclipse-neon.sh
+sudo ./java-1.8.sh
+sudo ./notepadqq.sh
+sudo ./openssh.sh
+sudo ./owncloud.sh
+sudo ./remmina.sh
+sudo ./shutter.sh
+sudo ./skype.sh
+sudo ./slack.sh
+sudo ./sublime.sh
+sudo ./vlc.sh
+sudo ./xrdp.sh
+sudo ./java-1.7.sh
+sudo ./teamviewer.sh
+sudo ./rabbitvcs.sh
 echo "################################################################"
 echo "################ All Pacahges Has been Installed ######################"
 echo "################################################################"

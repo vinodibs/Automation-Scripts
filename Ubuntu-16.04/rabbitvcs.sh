@@ -7,7 +7,7 @@
 ########################################################
 
 # Downloading & Installing Skype for Ubuntu Version
-sudo add-apt-repository ppa:rabbitvcs/ppa
+sudo add-apt-repository ppa:rabbitvcs/ppa -y 
 sudo apt-get update -y
 sudo apt-get install rabbitvcs* -y 
 echo "################################################################"
