@@ -14,8 +14,6 @@ rm /tmp/slack-desktop-2.8.2-amd64.deb
 wget http://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.2-amd64.deb -O /tmp/slack-desktop-2.8.2-amd64.deb
 sudo dpkg -i /tmp/slack-desktop-2.8.2-amd64.deb
 
-rm /tmp/slack-desktop-2.8.2-amd64.deb
-
 echo "fixing hardcoded icon"
 old="Icon=\/usr\/share\/pixmaps\/slack.png"
 new="Icon=slack"

@@ -7,7 +7,7 @@
 ########################################################
 
 # Downloading & Installing Openssh for Ubuntu Version
-sudo apt-get install openssh-server
+sudo apt-get install openssh-server -y
 echo "################################################################"
 echo "################ Installation Sucessfully ######################"
 echo "################################################################"

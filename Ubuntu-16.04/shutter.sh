@@ -7,7 +7,7 @@
 ########################################################
 
 # Downloading & Installing Shutter for Ubuntu Version
-sudo add-apt-repository ppa:shutter/ppa
+sudo add-apt-repository ppa:shutter/ppa -y 
 sudo apt-get update -y 
 sudo apt-get install shutter -y 
 echo "################################################################"
