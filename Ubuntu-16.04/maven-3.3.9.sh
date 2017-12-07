@@ -7,7 +7,7 @@
 ########################################################
 
 # Installing All required Package for Ubuntu Version
-sudo apt install maven -y 
+sudo apt-get install maven -y 
 echo "################################################################"
 echo "################ Installation Sucessfully ######################"
 echo "################################################################"
