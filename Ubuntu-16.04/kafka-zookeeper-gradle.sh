@@ -22,9 +22,13 @@ sudo apt --assume-yes install oracle-java8-installer
 # Install zookeeper::
 sudo apt-get install zookeeperd -y 
 # Install Kafka using Git Repo
+cd /tmp/
 sudo git clone https://github.com/apache/kafka.git
-mv kafka /usr/local/kafka
+mv /tmp/kafka /usr/local/kafka
 sudo echo "delete.topic.enable = true " >> /usr/local/kafka/config/server.properites
+cd /gradle
+./gradlew jar
+./gradlew eclipse
 #Install Gradle 2 or higher
 sudo add-apt-repository ppa:cwchien/gradle -y 
 sudo apt-get update -y 
