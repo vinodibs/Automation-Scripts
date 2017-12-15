@@ -28,7 +28,7 @@ mv /tmp/kafka /usr/local/kafka
 sudo echo "delete.topic.enable = true " >> /usr/local/kafka/config/server.properites
 cd /gradle
 ./gradlew jar
-./gradlew eclipse
+./gradlew ~/Desktop/eclipse
 #Install Gradle 2 or higher
 sudo add-apt-repository ppa:cwchien/gradle -y 
 sudo apt-get update -y 
