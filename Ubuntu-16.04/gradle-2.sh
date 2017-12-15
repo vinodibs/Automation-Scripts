@@ -1,16 +1,16 @@
 #!/bin/bash
 ########################################################
 # Written to be used on 64 bits computers
-# Written By 	: 	Vinod Kumar
+# Written By    :       Vinod Kumar
 ########################################################
 ########################################################
 ########################################################
-# Downloading & Installing Skype for Ubuntu Version
-rm /tmp/skypeforlinux-64.deb
-wget https://repo.skype.com/latest/skypeforlinux-64.deb -O /tmp/skypeforlinux-64.deb
-sudo apt install -y libjpeg62:i386
-sudo dpkg -i /tmp/skypeforlinux-64.deb
 
+# Downloading & Installing Gradle-2  for Ubuntu Version
+
+sudo add-apt-repository ppa:cwchien/gradle
+sudo apt-get update -y 
+sudo apt-get install gradle -y 
 echo "################################################################"
 echo "################ Installation Sucessfully ######################"
 echo "################################################################"

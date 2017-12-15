@@ -13,6 +13,8 @@ sudo apt-get install network-manager* -y
 sudo apt-get install vim -y
 sudo apt-get -f install -y
 sudo apt-get install alsa-base pulseaudio -y
+sudo add-apt-repository ppa:git-core/ppa 
+sudo apt update; sudo apt install git -y
 sudo alsa force-reload
 mkdir -p ~/Documents/Source-Code
 sudo echo "192.168.0.1       "icloud.impressico.local" " >> /etc/hosts
