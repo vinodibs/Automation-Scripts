@@ -21,16 +21,17 @@ sudo echo "$accept-license" | sudo debconf-set-selections
 sudo apt --assume-yes install oracle-java8-installer
 # Install zookeeper::
 sudo apt-get install zookeeperd -y 
+#Install Gradle 2 or higher
+sudo add-apt-repository ppa:cwchien/gradle -y
+sudo apt-get update -y
+sudo apt-get install gradle -y
 # Install Kafka using Git Repo
 cd /tmp/
 sudo git clone https://github.com/apache/kafka.git
-mv /tmp/kafka /usr/local/kafka
-sudo echo "delete.topic.enable = true " >> /usr/local/kafka/config/server.properites
-cd /gradle
+mv /tmp/kafka /usr/local
+cd /usr/local/kafka
+gradle
 ./gradlew jar
-./gradlew ~/Desktop/eclipse
-#Install Gradle 2 or higher
-sudo add-apt-repository ppa:cwchien/gradle -y 
-sudo apt-get update -y 
-sudo apt-get install gradle -y 
-
+# ./gradlew jar -Pscala_version=2.11.12
+# ./gradlew ~/Desktop/eclipse
+sudo echo "delete.topic.enable = true " >> /usr/local/kafka/config/server.properites
