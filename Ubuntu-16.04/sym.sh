@@ -1,0 +1,1 @@
+http://mail:8014/EmailInstallPackages/2BA71E85C0A8000B0177137E5570A429_LINUXDPKG/sep/SymantecEndpointProtection.zip
