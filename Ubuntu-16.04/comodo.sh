@@ -3,8 +3,6 @@
 # Written to be used on 64 bits computers
 # Written By    :       Vinod Kumar
 ########################################################
-########################################################
-########################################################
 # Downloading & Installing COMODO ANTIVIRUS for Ubuntu Version
 sudo bash
 cd /tmp/
@@ -14,6 +12,4 @@ sudo dpkg -i libssl0.9.8_0.9.8o-7ubuntu3.2.14.04.1_amd64.deb
 sudo apt-get install -f
 sudo dpkg -i cav-linux_x64.deb
 sudo /opt/COMODO/post_setup.sh
-echo "################################################################"
 echo "################ Comodo Installation Sucessfully ######################"
-echo "################################################################"
