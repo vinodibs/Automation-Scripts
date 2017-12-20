@@ -4,8 +4,8 @@
 # Written By    :       Vinod Kumar
 ########################################################
 # Downloading & Installing Notepad ++ for Ubuntu Version
-sudo add-apt-repository ppa:notepadqq-team/notepadqq
-sudo apt-get update
+sudo add-apt-repository ppa:notepadqq-team/notepadqq -y 
+sudo apt-get update -y 
 sudo apt-get install notepadqq -y
 echo "################################################################"
 echo "################ Notepad++ Installation Sucessfully ######################"
