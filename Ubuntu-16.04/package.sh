@@ -18,9 +18,11 @@ sudo add-apt-repository ppa:git-core/ppa
 sudo apt update; sudo apt install git -y
 sudo alsa force-reload
 mkdir -p ~/Documents/Source-Code
+sudo apt-get install libc6:i386 libx11-6:i386 libncurses5:i386 libstdc++6:i386 -y
+sudo apt-get install lib32ncurses5 lib32z1 -y
 sudo echo "192.168.0.1       "icloud.impressico.local" " >> /etc/hosts
 sudo echo "192.168.0.11       "impressico.local" " >> /etc/hosts
 sudo echo "192.168.0.68       "hrms.impressico.local" " >> /etc/hosts
 sudo echo "192.168.0.21       "svn.impressico.in" " >> /etc/hosts
 sudo echo "192.168.0.7       "chef.impressico.local" " >> /etc/hosts
-echo "################ openssh-vim-gitupdate-alsa Installation Sucessfully ######################"
+echo "################ openssh-vim-gitupdate-alsa-lib Installation Sucessfully ######################"
