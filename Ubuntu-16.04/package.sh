@@ -15,6 +15,7 @@ sudo apt-get install vim -y
 sudo apt-get install alsa-base pulseaudio -y
 sudo add-apt-repository ppa:git-core/ppa -y
 sudo apt update; sudo apt install git -y
+sudo apt-get install openssh-server -y
 sudo alsa force-reload
 mkdir -p ~/Documents/Source-Code
 sudo apt-get install libc6:i386 libx11-6:i386 libncurses5:i386 libstdc++6:i386 -y
