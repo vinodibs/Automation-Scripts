@@ -3,17 +3,10 @@
 # Written to be used on 64 bits computers
 # Written By    :       Vinod Kumar
 ########################################################
-########################################################
-########################################################
-
 # Downloading & Installing teamviewer for Ubuntu Version
-
-wget https://download.teamviewer.com/download/teamviewer_i386.deb -O /tmp/teamviewer_i386.deb
-cd /tmp
-sudo dpkg -i teamviewer*.deb
+sudo wget https://download.teamviewer.com/download/teamviewer_i386.deb -O /tmp/teamviewer_i386.deb
+sudo dpkg -i /tmp/teamviewer*.deb
 sudo apt-get -f install -y
+echo "################ Team Viewer Installation Sucessfully ######################"
 
-echo "################################################################"
-echo "################ Installation Sucessfully ######################"
-echo "################################################################"
 
