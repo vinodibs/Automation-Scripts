@@ -8,8 +8,8 @@
 
 # Downloading & Installing Skype for Ubuntu Version
 sudo add-apt-repository ppa:rabbitvcs/ppa -y 
+sudo apt-get -f install -y
 sudo apt-get update -y
 sudo apt-get install rabbitvcs* -y 
-echo "################################################################"
-echo "################ Installation Sucessfully ######################"
-echo "################################################################"
+echo "################ Rabbit VCS Installation Sucessfully ######################"
+
