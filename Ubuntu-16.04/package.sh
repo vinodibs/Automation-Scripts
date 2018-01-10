@@ -12,7 +12,6 @@ sudo apt-get install openssh-server -y
 sudo apt-get install net-tools -y
 sudo apt-get install network-manager* -y
 sudo apt-get install vim -y
-sudo apt-get -f install # Install dependencies and finish configuring the packages(s)
 sudo apt-get install alsa-base pulseaudio -y
 sudo add-apt-repository ppa:git-core/ppa -y
 sudo apt update; sudo apt install git -y
