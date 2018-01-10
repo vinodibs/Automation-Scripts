@@ -8,7 +8,7 @@
 
 # Installing Required Package for Ubuntu Version
 sudo apt-get update -y
-sudo apt-get -f install
+sudo apt-get -f install -y
 sudo apt-get install openssh-server -y
 sudo apt-get install net-tools -y
 sudo apt-get install network-manager* -y
