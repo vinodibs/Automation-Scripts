@@ -5,27 +5,25 @@
 ########################################################
 
 # Installing All required Package for Ubuntu Version 
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/package.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/adobereader.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/beyond-compare.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/chrome.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/eclipse-neon.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/java-1.7.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/maven-3.3.9.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/notepadqq.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/openssh.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/owncloud.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/rabbitvcs.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/remmina.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/shutter.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/skype.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/slack.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/sublime.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/teamviewer.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/vlc.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/wps-office.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/java-1.8.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/intelliJ.sh
-sudo sh /tmp/Automation-Scripts/Ubuntu-16.04/enable-root.sh
+sudo sh enable-root.sh
+sudo sh package.sh
+sudo sh adobereader.sh
+sudo sh beyond-compare.sh
+sudo sh chrome.sh
+sudo sh eclipse-neon.sh
+sudo sh notepadqq.sh
+sudo sh openssh.sh
+sudo sh owncloud.sh
+sudo sh rabbitvcs.sh
+sudo sh remmina.sh
+sudo sh shutter.sh
+sudo sh skype.sh
+sudo sh slack.sh
+sudo sh sublime.sh
+sudo sh teamviewer.sh
+sudo sh vlc.sh
+sudo sh wps-office.sh
+sudo sh java-1.8.sh
+sudo sh intelliJ.sh
 echo "################ All Packages Has been Installed ######################"
 
