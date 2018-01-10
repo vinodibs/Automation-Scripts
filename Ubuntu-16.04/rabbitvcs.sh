@@ -3,9 +3,6 @@
 # Written to be used on 64 bits computers
 # Written By    :       Vinod Kumar
 ########################################################
-########################################################
-########################################################
-
 # Downloading & Installing Skype for Ubuntu Version
 sudo add-apt-repository ppa:rabbitvcs/ppa -y 
 sudo apt-get -f install -y
