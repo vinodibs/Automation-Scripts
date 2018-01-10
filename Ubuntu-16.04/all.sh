@@ -3,7 +3,6 @@
 # Written to be used on 64 bits computers
 # Written By    :       Vinod Kumar
 ########################################################
-
 # Installing All required Package for Ubuntu Version 
 sudo sh enable-root.sh
 sudo sh package.sh
@@ -19,6 +18,7 @@ sudo sh remmina.sh
 sudo sh shutter.sh
 sudo sh skype.sh
 sudo sh slack.sh
+sudo sh playonlinux.sh
 sudo sh sublime.sh
 sudo sh teamviewer.sh
 sudo sh vlc.sh
