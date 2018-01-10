@@ -10,5 +10,5 @@
 sudo apt-add-repository ppa:remmina-ppa-team/remmina-next -y
 sudo apt-get update -y
 sudo apt-get install remmina remmina-plugin-rdp libfreerdp-plugins-standard -y
-echo "############Remmina Installation Sucessfully#################"
+echo "############ Remmina Installation Sucessfully#################"
 
