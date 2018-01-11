@@ -23,6 +23,7 @@ sudo sh sublime.sh
 sudo sh teamviewer.sh
 sudo sh vlc.sh
 sudo sh wps-office.sh
+sudo sh kafka-zookeeper-gradle.sh
 sudo sh java-1.8.sh
 sudo sh intelliJ.sh
 echo "################ All Packages Has been Installed ######################"
