@@ -18,6 +18,7 @@ sudo sh remmina.sh
 sudo sh shutter.sh
 sudo sh skype.sh
 sudo sh slack.sh
+sudo sh kazam.sh
 sudo sh playonlinux.sh
 sudo sh sublime.sh
 sudo sh teamviewer.sh
