@@ -11,4 +11,4 @@ wget http://git.impressicocrm.com/vinod.kumar/Software/raw/master/centrify-suite
 sudo tar -zvxf centrify-suite-2017.3-deb7-x86_64.tgz
 cd centrify-suite-2017.3-deb7-x86_64
 sudo sh install.sh
-
+echo "################ join Installation Sucessfully ######################"
