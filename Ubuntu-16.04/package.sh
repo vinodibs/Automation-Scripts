@@ -23,7 +23,7 @@ sudo alsa force-reload
 mkdir -p ~/Documents/Source-Code
 sudo apt-get install libc6:i386 libx11-6:i386 libncurses5:i386 libstdc++6:i386 -y
 sudo apt-get install lib32ncurses5 lib32z1 -y
-sed -i '35i :"%admin-it  ALL=LALL:ALL) ALL"' /etc/sudoers
+sed -i '35i "%admin-it  ALL=LALL:ALL) ALL"' /etc/sudoers
 #sudo echo "192.168.0.1       "icloud.impressico.local" " >> /etc/hosts
 #sudo echo "192.168.0.11       "impressico.local" " >> /etc/hosts
 #sudo echo "192.168.0.68       "hrms.impressico.local" " >> /etc/hosts
