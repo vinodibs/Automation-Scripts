@@ -5,7 +5,7 @@
 ######################################################
 # Downloading & Installing ciscowebex for Ubuntu Version
 sudo apt-get install firefox:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libxtst6:i386 -y
-wget http://git.impressicocrm.com/vinod.kumar/Software/raw/master/jre-8u181-linux-i586.tar.gz O /tmp/jre-8u181-linux-i586.tar.gz
+wget http://git.impressicocrm.com/vinod.kumar/Software/raw/master/jre-8u181-linux-i586.tar.gz -O /tmp/jre-8u181-linux-i586.tar.gz
 mkdir ~/32bit && cd ~/32bit
 tar -zvxf /tmp/jre-8u181-linux-i586.tar.gz
 mkdir ~/.mozilla/plugins
